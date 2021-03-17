@@ -12,11 +12,20 @@
     <body>
         
         <div id="div-principal">
-            <h1>Estudando Jquery e Ajax</h1>
+            <h1>Consula CEP</h1>
 
             <div id="container">
-                <button type="button" class="botao">Clique aqui</button>
+                <input id="cep" name="cep">
+                <button type="button" class="botao" onclick="consultaCep()">Consultar</button>
             </div>
+            
+            <div id="container2">
+                <p class="itens" id="logradouro"></p>
+                <p class="itens" id="bairro"></p>
+                <p class="itens" id="localidade"></p>
+                <p class="itens" id="uf"></p>
+            </div>
+                
         </div>
     </body>
 

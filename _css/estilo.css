@@ -6,14 +6,28 @@
 body{
     width: 940px;
     margin: auto;
+    background: url('../_img/mapa.png') no-repeat;
+ 
 }
-div#div-principal{
-    border: 1px solid red;
-}
-
-div#container{
-    border: 1px solid green;
+h1{
+    text-align: center;
+    margin: 10px 10px;
 }
 .botao{
     margin: 50px auto 10px 10px;
+}
+
+div#container{
+    width: 350px;
+    margin: auto;
+    padding-left: 100px;
+}
+
+div#container2{
+ padding: 10px;
+ text-align: center;
+}
+
+p.itens{
+    font-size: 20pt;
 }
