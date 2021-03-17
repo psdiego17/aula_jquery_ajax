@@ -1,0 +1,1 @@
+alert('Chamando o main.js');
